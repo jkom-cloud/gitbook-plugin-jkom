@@ -23,10 +23,6 @@ gitbook-plugin-jkom
 1. Fix column hidden bug
 1. Add edit toolbar
 1. Override default style to hide meaningless things
-
-# Note
-* 
-* 
  
 # How to development
 In the plugin's folder, run:
