@@ -1,0 +1,39 @@
+{
+  "name": "gitbook-plugin-jkom",
+  "version": "0.0.1",
+  "description": "gitbook plugin for jkom",
+  "engines": {
+    "gitbook": ">1.x.x"
+  },
+  "gitbook": {
+    "properties": {
+      "editBase": {
+        "required": true,
+        "title": "Base for the edit redirection",
+        "type": "string"
+      },
+      "editLabel": {
+        "default": "Edit This Page",
+        "title": "Label for the edit button",
+        "type": [
+          "string",
+          "object"
+        ]
+      },
+      "editBranch": {
+        "default": "master",
+        "title": "Edit branch",
+        "type": [
+          "string"
+        ]
+      },
+      "teamName": {
+        "default": "Precise",
+        "title": "team name",
+        "type": [
+          "string"
+        ]
+      }
+    }
+  }
+}

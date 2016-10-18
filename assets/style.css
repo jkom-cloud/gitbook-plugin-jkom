@@ -1,0 +1,6 @@
+.pretty-table{
+  overflow: auto;
+}
+.pretty-table  table{
+  white-space: nowrap
+}
