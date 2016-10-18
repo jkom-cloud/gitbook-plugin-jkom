@@ -24,7 +24,7 @@ gitbook-plugin-jkom
 1. Add edit toolbar
 1. Override default style to hide meaningless things
  
-# How to development
+# How to develop
 In the plugin's folder, run:
 
 ```
