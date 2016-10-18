@@ -4,3 +4,6 @@
 .pretty-table  table{
   white-space: nowrap
 }
+.gitbook-link, .divider {
+  display: none !important;
+}

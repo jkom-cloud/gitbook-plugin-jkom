@@ -20,9 +20,6 @@ require(["gitbook", "jQuery"], function(gitbook, $) {
                 window.open(base + 'edit/' + branch + '/' + filepath);
             }
         });
-
-        // override menu footer
-        $('.gitbook-link').text('By JKOM ' + teamName + ' Team').attr('href', 'https://github.com/njjkom').attr('target', "_blank");
     });
 
 });
